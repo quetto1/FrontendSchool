@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(58,82,203,1) 0%, rgba(41,40,119,1) 100%);
+color: whitesmoke;
+}
+
+    h3{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 32px;
+        padding: 10px;
+        font-weight: bold;
+    }
+  
+    #wrapper{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .movie-photo{
+        width: 150px;
+        height: 200px;
+        padding: 10px;
+    }
+    
+    .movie-title{
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+        width: 150px;
+        overflow: hidden;
+    }
+
+
+
+
